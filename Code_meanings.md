@@ -2,12 +2,12 @@
 This Python programming is based on Computer Vision and Pyzbar library which will detect and display data of QR-Codes.
 
 
-# importing necessary libraries
+### importing necessary libraries
 import cv2 as cv
 import numpy as np
 from pyzbar.pyzbar import decode
 
-# accessing webcam
+### accessing webcam
 cap = cv.VideoCapture(0)    
 
 while cap.isOpened():
